@@ -1,8 +1,12 @@
+import {ChakraProvider} from '@chakra-ui/react';
+import {DefaultTheme} from './Theme/DefaultTheme';
+import Main from './page/Main';
+
 function App() {
 	return (
-		<>
-			<h1>Hello From React</h1>
-		</>
+		<ChakraProvider theme = {DefaultTheme}>
+			<Main />
+		</ChakraProvider>
 	);
 }
 
