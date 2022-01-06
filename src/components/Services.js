@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box, Text } from '@chakra-ui/react';
 import { ServicesData } from '../Data/ServicesData';
-import Champ from '../assets/champ.png';
 
 const Services = () => {
 

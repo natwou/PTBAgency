@@ -7,7 +7,7 @@ const Mission = () => {
 			<Box w='100%' h='200px' mt='100px'>
 				<Text variant='TitleCenter'>Our mission</Text>
 				<Text variant='Text'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, hic.
+					Petit text pour faire les missions
 				</Text>
 			</Box>
 		</>
