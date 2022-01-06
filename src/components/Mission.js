@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, Box } from '@chakra-ui/react'
+import {LoremIpsum} from 'react-lorem-ipsum'
 
 const Mission = () => {
 	return (
@@ -7,7 +8,7 @@ const Mission = () => {
 			<Box w='100%' h='200px' mt='100px'>
 				<Text variant='TitleCenter'>Our mission</Text>
 				<Text variant='Text'>
-					Petit text pour faire les missions
+					<LoremIpsum avgWordsPerSentence={1}/>
 				</Text>
 			</Box>
 		</>
