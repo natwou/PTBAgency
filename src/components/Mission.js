@@ -6,8 +6,8 @@ const Mission = () => {
 	return (
 		<>
 			<Box w='100%' h='200px' mt='100px'>
-				<Text variant='TitleCenter'>Our mission</Text>
-				<Text variant='Text'>
+				<Text variant='Title'>Our mission</Text>
+				<Text variant='Para' textAlign="center" mt="50px">
 					<LoremIpsum avgWordsPerSentence={1}/>
 				</Text>
 			</Box>

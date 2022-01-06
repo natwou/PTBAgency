@@ -18,7 +18,7 @@ const Services = () => {
 						}} src={ServicesData[i]['Image']} alt="" />
 					</Box>
 					<Box pos="relative" left="10px">
-						<Text>{ServicesData[i]['Title']}</Text>
+						<Text variant="LilTitle">{ServicesData[i]['Title']}</Text>
 						<Text>{ServicesData[i]['Desc']}</Text>
 					</Box>
 
@@ -31,7 +31,7 @@ const Services = () => {
 	return (
 		<>
 			<Box h="auto" w="100%" mt="100px">
-				<Text variant="TitleCenter"> Our Services</Text>
+				<Text variant="Title"> Our Services</Text>
 				<Box d="flex" justifyContent="center" flexWrap="wrap" maxW="900px"
 					m="25px auto 0">
 					{ServiceRender()}

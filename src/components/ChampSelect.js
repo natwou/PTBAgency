@@ -31,7 +31,7 @@ const ChampSelect = () => {
              backgroundSize = "cover"
         >
             <Box>
-                <Text variant = "TitleCenter">Choose your champion</Text>
+                <Text variant = "Title">Choose your champion</Text>
             </Box>
             <Box d = "flex"
                 // bg="red"

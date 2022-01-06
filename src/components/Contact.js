@@ -5,7 +5,7 @@ const Contact = () => {
 	return (
 		<>
 			<Box w="100%" h="200px" mt="100px">
-				<Text variant="TitleCenter">Contact us </Text>
+				<Text variant="Title">Contact us </Text>
 			</Box>
 		</>
 	);

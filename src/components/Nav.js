@@ -9,7 +9,6 @@ const Nav = () => {
 				justifyContent : 'center',
 				alignItems     : 'center',
 				height         : '70px',
-				backgroundColor: '#79018C'
 			}}>
 				<li style = {{marginRight: '140px', fontWeight: '900'}}>PTB Agency</li>
 				<li>Joueur</li>
