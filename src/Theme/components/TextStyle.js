@@ -6,7 +6,7 @@ export const TextStyle = {
     variants  : {
         Title    : {
             fontSize  : '2em',
-            textAlign : 'Center'
+            textAlign : 'Center',
         },
         Para     : {
             textAlign : 'justify',
